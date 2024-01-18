@@ -25,9 +25,8 @@ function Login() {
           <input
             type="text"
             value={username}
-            placeholder="User Name"
-            autoFocus
-            onClick={(event) => setUsername(event.target.value)}
+            placeholder="Username"
+            onChange={(event) => setUsername(event.target.value)}
           />
         </div>
         <div>
@@ -35,7 +34,7 @@ function Login() {
             type="password"
             value={password}
             placeholder="Password"
-            onClick={(event) => setPassword(event.target.value)}
+            onChange={(event) => setPassword(event.target.value)}
           />
         </div>
         <div>
